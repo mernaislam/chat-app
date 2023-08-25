@@ -24,7 +24,7 @@ class App extends StatelessWidget {
       theme: ThemeData().copyWith(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Color.fromARGB(255, 3, 2, 40),
+          seedColor: const Color.fromARGB(255, 3, 2, 40),
         ),
       ),
       debugShowCheckedModeBanner: false,
